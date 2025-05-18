@@ -13,13 +13,13 @@ Simulating water is very complex because we have to take into account water's fl
 ### **2. Background**
 
 Recreating water has been a long challenge in the field of computer graphics. From a simple 2D wave to fully simulated 3D surface dynamics. For interactive applications, such as games, developers often use approximations that are good enough rather than completely accurate physics.  This project is using procedural animation to simulate waves on the plane.  The method is based on sinusoidal displacement. Every direction of the vertex of the mesh is changed in its y-axis direction by a sine wave. The result is waves moving across the surface of water. This function is time-dependent, which means it produces continuous and smooth movement that imitates oceanic waves. Such animation is lightweight so that it will run well even on low-end devices well. The mathematical formula involves the use of the sine function with phase shifts based on position and time[1].
-
+<br/>
  vertex.y = Mathf.Sin(Time.time * waveSpeed + vertex.x * waveFrequence + vertex.z * waveFrequence) * waveHeights;
  <div style = "display: flex">
-    <img width="320px" src="[https://github.com/huah1600/OceanSime/blob/master/ocean.PNG"/>
+    <img width="320px" src="https://github.com/huah1600/OceanSime/blob/master/ocean.PNG"/>
 
 <div/>
-
+<br/>
 This will make sure that waves will travel diagonally across the surface and be controlled through exposed public parameters in the Unity Spectator. Wave behavior can then be customized to produce choppy, calm, or fast-moving surfaces. This figure shows a simple ocean surface moving like a wave
 
 
