@@ -1,4 +1,4 @@
-Ocean wave simulator in Unity  - DH2323 Final project at KTH
+###***Ocean wave simulator in Unity  - DH2323 Final project at KTH***
 
 ### **1. Introduction**
 
